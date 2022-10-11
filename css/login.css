@@ -1,0 +1,72 @@
+.sunny {
+    background-image: url("/imagens/sunny.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.loginForm {
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: left;
+}
+
+.loginHeader{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.loginHeader img{
+    width: 410px;
+    cursor: pointer;
+}
+
+.loginHeader h1{
+    color: #F1E71C;
+    font-size: 2.1em;
+}
+
+.nome {
+    margin-left: 20px;
+    font-family: "Piedra", cursive;
+    color: #75BCF3;
+}
+
+.loginInput {
+    border: 2px solid #75BCF3;
+    border-radius: 8px;
+    color: #75BCF3;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 410px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    margin-left: 20px;
+    font-family: "Piedra", cursive;
+}
+
+.loginBotao {
+    background-color: #75BCF3;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 410px;
+    width: 100%;
+    margin-left: 20px;
+    font-family: "Piedra", cursive;
+}
+
+.loginBotao:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto
+}
