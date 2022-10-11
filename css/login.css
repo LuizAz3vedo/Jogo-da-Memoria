@@ -1,5 +1,5 @@
 .sunny {
-    background-image: url("/imagens/sunny.png");
+    background-image: url("../imagens/sunny.png");
     background-position: center;
     background-size: cover;
 }
